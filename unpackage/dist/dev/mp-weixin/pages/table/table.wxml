@@ -1,0 +1,1 @@
+<view style="padding:32rpx;" class="data-v-ea97ac68"><wyb-table vue-id="f8ab7cbc-1" first-line-fixed headers="{{headers}}" contents="{{contents}}" height="{{auto}}" data-ref="table" data-event-opts="{{[['^myEvent',[['getValue']]]]}}" bind:myEvent="__e" class="data-v-ea97ac68 vue-ref" bind:__l="__l"></wyb-table></view>

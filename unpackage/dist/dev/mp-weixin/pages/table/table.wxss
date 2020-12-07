@@ -1,0 +1,86 @@
+.sanjiaoContainer.data-v-ea97ac68 {
+  display: inline-block;
+  position: relative;
+}
+.topSanjiao.data-v-ea97ac68 {
+  position: absolute;
+  left: 10rpx;
+  top: -25rpx;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10rpx solid transparent;
+  /*左边框实现透明;10pupx是三角形左边框的宽度*/
+  border-right: 10rpx solid transparent;
+  border-bottom: 15rpx solid #000;
+}
+.bottomSanjiao.data-v-ea97ac68 {
+  position: absolute;
+  bottom: -10rpx;
+  left: 10rpx;
+  display: inline-block;
+  width: 0rpx;
+  /*  宽高设置为0，很重要，否则达不到效果 */
+  height: 0rpx;
+  border-left: 10rpx solid transparent;
+  /*左边框实现透明;10pupx是三角形左边框的宽度*/
+  border-right: 10rpx solid transparent;
+  border-top: 15rpx solid #000;
+}
+page.data-v-ea97ac68 {
+  font-size: 25rpx;
+  padding: 10rpx;
+}
+.box.data-v-ea97ac68 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.left.data-v-ea97ac68 {
+  width: 190rpx;
+}
+.left view.data-v-ea97ac68:nth-last-of-type(1) {
+  border-bottom: 1rpx solid #c8c7cc;
+}
+.left .Left_list.data-v-ea97ac68 {
+  height: 80rpx;
+  width: 180rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border: 1rpx solid #c8c7cc;
+  border-bottom: 0;
+  border-right: 0;
+}
+.table.data-v-ea97ac68 {
+  white-space: nowrap;
+  overflow: hidden;
+  height: 100%;
+  border: 1rpx solid #c8c7cc;
+  border-bottom: 0;
+}
+.table .header.data-v-ea97ac68 {
+  width: 190rpx;
+  text-align: center;
+  display: inline-block;
+}
+.table .header view.data-v-ea97ac68 {
+  height: 80rpx;
+  border: 1rpx solid #c8c7cc;
+  border-top: 0;
+  border-left: 0;
+  line-height: 80rpx;
+}
+.table .header .table_one.data-v-ea97ac68 {
+  border-top: 0;
+  border-left: 0;
+  position: relative;
+}
+.table .header .table_one .table_one_img.data-v-ea97ac68 {
+  position: absolute;
+  left: 0;
+  top: 20rpx;
+  width: 5rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
